@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+    color: #373737;
+    min-width: 1140px;
+    background: url(../images/login_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* log模块样式设置开始 */
+
+.log img {
+    padding-top: 20px;
+}
+
+
+/* log模块样式设置结束 */
+
+
+/* 登录注册模块样式设置开始 */
+
+.LogRinegistration {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+}
+
+
+/* title标题样式设置 */
+
+.title-box {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.register_box {
+    display: none;
+}
+
+
+/* form内容部分（注册/登录页面）提交表单样式设置 */
+
+.login_box,
+.register_box {
+    padding: 0 30px;
+}
+
+
+/* 设置表单为相对定位 */
+
+.layui-form-item {
+    position: relative;
+}
+
+
+/* 表单内图标设置 */
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.layui-input {
+    padding-left: 30px;
+}
+
+.To_register {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.To-login {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* 登录注册模块样式设置结束 */
