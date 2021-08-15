@@ -1,31 +1,59 @@
+/* 设置页面底部区域样式 */
+
 .layui-footer {
     text-align: center;
     font-size: 12px;
 }
 
+
+/* 设置第一层（主导航）图标与文字之间间距样式 */
+
 .iconfont {
     margin-right: 8px;
 }
+
+
+/*  设置第二层导航文字与图标间距及与主导航缩进*/
 
 .layui-icon {
     margin-right: 8px;
     margin-left: 20px;
 }
 
+
+/* 设置导航字体大小 */
+
+.layui-nav-item a {
+    font-size: 12px;
+}
+
+
+/* 设置iframe内联框架大小样式 */
+
 iframe {
     width: 100%;
     height: 100%;
 }
 
+
+/* 设置隐藏layui-body滚动条 */
+
 .layui-body {
     overflow: hidden;
 }
+
+
+/*取消a链接动画效果  */
 
 a {
     transition: none !important;
 }
 
+
+/* 设置头像信息模块样式 */
+
 .userinfo {
+    width: 200px;
     height: 60px;
     line-height: 60px;
     text-align: center;
@@ -42,6 +70,9 @@ a {
     height: 40px;
 }
 
+
+/* 设置字体头像样式 */
+
 .text-avatar {
     display: inline-block;
     width: 40px;
@@ -55,8 +86,4 @@ a {
     position: relative;
     top: 4px;
     margin-right: 10px;
-}
-
-.layui-nav-item a {
-    font-size: 12px;
 }
