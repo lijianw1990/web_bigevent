@@ -59,9 +59,11 @@ $(function() {
             data: $(this).serialize(),
             success: function(res) {
                 if (res.status !== 0) {
-                    return layer.msg(res.massage)
+
+                    return layer.msg("用户名或密码错误")
                 }
-                layer.msg(res.massage);
+
+                layer.msg("登录成功");
                 localStorage.setItem("token", res.token);
                 location.href = "/index.html"
             }
